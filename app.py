@@ -3,7 +3,7 @@ import google.generativeai as genai
 
 # 1. 사용자님의 제미나이 API 키 설정 완료
 genai.configure(api_key="AIzaSyDppJG64YaPgolP1yQWIeNOtGQdOB-3pNA")
-model = genai.GenerativeModel('gemini-1.5-flash')
+model = genai.GenerativeModel('gemini-pro')
 
 # 2. 웹 화면 레이아웃 설정
 st.set_page_config(page_title="나의 AI 헬스 메이트", layout="centered")
